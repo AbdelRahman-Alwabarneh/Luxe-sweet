@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #f8f4f0;
+    overflow: hidden; 
+}
+
+.scrollable-page {
+    overflow: auto; 
+    height: 100vh; 
+  }
+
+  /* تخصيص شريط التمرير */
+::-webkit-scrollbar {
+    width: 12px; /* عرض الشريط */
+  }
+  
+  /* تخصيص الجزء الداخلي من الشريط */
+  ::-webkit-scrollbar-thumb {
+    background-color: #a0785d; /* لون الشريط */
+    border-radius: 6px; 
+    
+    /* يجعل الحواف مستديرة */
+  }
+  
+  تخصيص المسار الخلفي
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* لون الخلفية، يمكنك تغييره ليناسب التصميم */
+  }
+  
+
+  .custom-icon {
+    color: #a0785d !important; /* لون الأيقونة */
+  }
+  
+  .custom-confirm-button {
+    background-color: #a0785d !important; /* لون زر الـ OK */
+    border-color: #a0785d !important; /* لون الحدود (اختياري) */
+  }
+  
